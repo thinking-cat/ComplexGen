@@ -144,9 +144,3 @@ $$z\le x, \quad z\le y, \quad z \ge x+y-1$$
 如果一个点连接许多条边，也会导致结果很差
 
 所有精细度高的，存在BSpline曲线的模型，其还原度都十分差劲
-
-.complex
-
-print seperate loss
-
-print seperate loss on inperfect data
