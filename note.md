@@ -120,11 +120,9 @@ $$ \begin{aligned} &\sum_i FE[i,j]=2E[j], \quad j\in[N_e] \\\\ &\sum_j EV[i,j]=2
 ## 二次项约束条件的转化
 上述的保证**合法的链复形**的约束条件中，存在二次项的约束条件，即：
 
-$$\sum_j EV[i,j]=2E[i]O[i], \quad i\in[N_e] \tag{2}$$
+$$\sum_j EV[i,j]=2E[i]O[i], \quad i\in[N_e] $$
 
-$$FE\times EV = 2FV \tag{3}$$
-
-> 标号同原论文一致
+$$FE\times EV = 2FV $$
 
 二次项的优化是非常难做的，最好的方式是转化成一次项，此外，因为变量的取值都在 $[0,1]$ 之间，因此:
 
